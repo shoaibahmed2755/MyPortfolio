@@ -330,19 +330,80 @@ span{
     background-color: var(--bg-color);
     width: 50px;
 }
-.experience-sub-title{
-    color: white;
-    font-weight: 600;
-    font-size: 1.75rem;
-    margin-bottom: 2rem;
+.title {
+    font-size: 8rem;
+    text-align: center;
+    margin: 2rem 0;
+    color: rgb(255, 255, 255); /* Use a suitable color to match the screenshot */
 }
-.experience-details-container{
+
+.experience {
+    background-color: #000000; /* Light gray background for contrast */
+    padding: 4rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.experience-sub-title {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.experience-details-container {
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    gap: 2rem; /* Space between the two sections */
+    flex-wrap: wrap; /* Adjust for responsiveness */
+    padding: 2rem 0;
 }
-.artical-container{
+
+.details-container {
+    background-color: rgb(0, 0, 0);
+    border: 0px solid #000000;
+    border-radius: 35px;
+    padding: 5rem;
+    width: 300px; /* Fixed width for consistent layout */
+    box-shadow: 0 5px 10px var(--main-color);
+}
+
+.article-container {
     display: flex;
-    text-align: initial;
     flex-wrap: wrap;
+    flex-direction: column ; /* Stack items vertically */
+    gap: 1.5rem;
+}
+
+article {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+article .icon {
+    height: 30px;
+    width: 30px; /* Ensure square icons */
+    border-radius: 50%;
+    object-fit: cover; /* Keep image aspect ratio */
+    background-color: #000000; /* Placeholder color for icons */
+}
+
+article div h3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin: 0;
+    color: rgb(255, 255, 255);
+}
+
+article div p {
+    font-size: 0.9rem;
+    color: #ffffff;
+    margin: 0;
+}
+.about-containers{
+    display: flex;
+    gap: 3rem;
 }
