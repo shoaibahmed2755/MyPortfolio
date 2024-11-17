@@ -224,4 +224,12 @@ span{
     60%{
         content: "Web Designer";
     }
+    61%,
+    80%{
+        content: "Graphic Designer";
+    }
+    81%,
+    100%{
+        content: "FullStack Developer";
+    }
 }
