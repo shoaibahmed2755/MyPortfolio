@@ -330,3 +330,19 @@ span{
     background-color: var(--bg-color);
     width: 50px;
 }
+.experience-sub-title{
+    color: white;
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+}
+.experience-details-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.artical-container{
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap;
+}
