@@ -363,11 +363,17 @@ span{
 
 .details-container {
     background-color: rgb(0, 0, 0);
-    border: 0px solid #000000;
+    border: 2px solid var(--main-color);
     border-radius: 35px;
     padding: 5rem;
-    width: 300px; /* Fixed width for consistent layout */
+    width: 500px; /* Fixed width for consistent layout */
     box-shadow: 0 5px 10px var(--main-color);
+    transition: 0.3s ease-in-out;
+    
+}
+.details-container:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 25px var(--main-color);
 }
 
 .article-container {
@@ -405,5 +411,5 @@ article div p {
 }
 .about-containers{
     display: flex;
-    gap: 3rem;
+    gap: 5rem;
 }
