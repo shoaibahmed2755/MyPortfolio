@@ -207,7 +207,7 @@ span{
     animation: cursor 0.5s infinite, typing 20s steps(14) infinite;
 }
 @keyframes cursor{
-    to{
+    to{aq@  
         border-left: 1px solid var(--main-color);
     }
 }
